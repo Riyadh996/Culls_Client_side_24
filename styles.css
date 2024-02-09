@@ -3,7 +3,7 @@ style>
     body {
       margin: 0;
       color: #094426; 
-      background-color: #E2E7F5; 
+      background-color: #8f98b3; 
     }
 
     header {
@@ -13,7 +13,7 @@ style>
     }
 
     .main-section1 {
-      display: grid;
+      display: -moz-grid-line;
       grid-template-columns: 3fr 1fr;
       padding: 20px;
     }
@@ -30,7 +30,7 @@ style>
     }
 
     hr {
-      margin: 0;
+      margin: 1;
     }
 
     ul {
@@ -41,7 +41,7 @@ style>
       background-color: #33FF96;
       position: fixed;
       height: 30%;
-      overflow: auto;
+      overflow: hidden;
       margin-left: 20px;
       margin-top: 20px;
     }
